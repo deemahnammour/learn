@@ -1,0 +1,51 @@
+.blog .items{
+    background-color: #fff;   
+}
+
+.blog img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog .text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blog .text span{
+    margin-bottom: 20px;
+}
+
+.blog .text i{
+    color: #1eb2a6;
+    font-size: 25px;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+
+.blog .text label{
+    color: grey;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.blog h1{
+    font-size: 25px;
+    padding: 20px;
+    transition: 0.5s;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.blog h1:hover{
+    color: #1eb2a6;
+    cursor: pointer;
+}
+
+.blog p{
+    color: gray;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+}

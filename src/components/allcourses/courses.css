@@ -1,0 +1,186 @@
+.coursesCard{
+    padding: 50px 0;
+}
+.coursesCard .items{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 30px
+  }
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 30px
+  }
+
+.coursesCard .img{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    padding: 15px;
+
+}
+
+.coursesCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.coursesCard .text{
+    margin-left: 15px;
+    text-align: left;
+}
+
+.coursesCard .text h2{
+    font-size: 25px;
+    margin: 10px 0px 10px 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.coursesCard .rate{
+  color: #1eb2a6;
+  margin: 20px 0;
+}
+
+.coursesCard .text .rate i{
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+
+.coursesCard .details .box{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.coursesCard .box .dimg{
+    margin-top: 20px;
+   
+}
+
+.coursesCard .box .dimg img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+
+.coursesCard .box .para{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.coursesCard .box .para h4{
+    font-size: 25px;
+    color: #807f7f;
+   margin-left: 10px;
+
+}
+
+.coursesCard .details span{
+    font-size: 20px;
+    color: #1eb2a6;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+.coursesCard .price{
+    margin: 30px 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+
+}
+
+.coursesCard .price h3{
+     font-weight: bold !important;
+     font-size: 19px;
+     color: #1eb2a6;
+     font-weight: normal;
+     letter-spacing: 1px;
+}
+
+.coursesCard button{
+    margin: 0;
+    border: 3px solid #1eb2a6;
+    width: 100%;
+    height: 70px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.coursesCard button:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+.online{
+    text-align: center;
+}
+
+.online .box{
+    box-shadow: 0 5px 25px -2px rgba(0 0 0 /9%);
+    background-color: #c4e0e0;
+    padding: 30px 20px;
+    transition: 0.5s;
+    height: 310px;
+}
+
+.online .box .img{
+    margin-top: 10px !important;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.online img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.online h2{
+    margin-top: 50px !important;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.online span{
+    background-color: #f8f8f8;
+    font-size: 20px;
+    color: #1eb2a6;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.online .box .show{
+    opacity: 0;
+}
+
+.online .box:hover{
+    background-color: #1eb2a6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    

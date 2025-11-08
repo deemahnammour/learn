@@ -1,0 +1,77 @@
+.price .items{
+    padding: 45px;
+    text-align: center;
+}
+
+.price h4{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.price h1{
+    font-size: 40px;
+    margin: 20px 0;
+    color: #1eb2a6;
+}
+
+.price h1 span{
+    color: black;
+    font-size: 30px;
+    margin-right: 3px;
+}
+.price p{
+    color: gray;
+    margin:40px 0;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.price button{
+    border: 2px solid #1eb2a6;
+    transition: 0.5s;   
+}
+
+.price button:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+.faq .container{
+    max-width: 70%;
+    border-radius: 5px;
+}
+
+.faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.faq button{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.faq h2{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.faq p{
+    padding: 17px;
+}
+.faq .accordion h2{
+    padding: 10px;
+}
+
+.faq .accordion span i{
+    margin-top: 19px;
+}
+.faq .accordion:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    transition: 0.5s;
+}
