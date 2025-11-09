@@ -48,7 +48,7 @@ const Footer = () => {
                 <li>Feedbacks</li>
             </ul>
         </div>
-        <div className="box">
+        <div className="box post">
             <h3>Recent Post</h3>
             {blog.slice(0,3).map((val)=>{
                 return(
