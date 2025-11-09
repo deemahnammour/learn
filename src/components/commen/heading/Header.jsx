@@ -15,7 +15,7 @@ const Header = () => {
        
          <ul className={click ? 'moblie-nav' : 'flexSB'} onClick={()=> setclick(false)}>
              <li><Link to='/'>Home</Link></li>
-             <li><Link to='/Courses'>All Courses</Link></li>
+             <li><Link to='/Courses'>Courses</Link></li>
              <li><Link to='/About'>About</Link></li>
              <li><Link to='/Team'>Team</Link></li>
              <li><Link to='/Pricing'>Pricing</Link></li>
